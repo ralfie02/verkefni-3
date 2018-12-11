@@ -1,0 +1,111 @@
+body{
+	margin: auto;
+	max-width: auto;
+h1{
+	color: #007399;
+	font-size: 30px;
+	font-family: arial;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr; 
+}
+.box{
+	padding: 10px;
+	border: 0px solid white;
+	text-align: left;
+}
+
+.header{
+	text-align: center;
+	background-image: linear-gradient(#1ac6ff, #0086b3);
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+/* mouse over link */
+a:hover {
+    color: red;
+}
+/* active, unvisited link*/
+a:link{
+	color: white;
+	text-decoration: none;
+}
+p.p1{
+	color: #916a08;
+	text-decoration: underline;
+	text-align: right;
+}
+nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav1{
+	text-align: center;
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#0099cc, #1ac6ff, #0099cc)
+}
+.nav2{
+	text-align: center;
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#0099cc, #1ac6ff, #0099cc)
+}
+.nav3{
+	text-align: center;	
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#0099cc, #1ac6ff, #0099cc)
+}
+.nav4{
+	text-align: center;	
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#0099cc, #1ac6ff, #0099cc)
+}
+.nav5{
+	text-align: center;	
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#0099cc, #1ac6ff, #0099cc)
+}
+.aside{
+	display: block;
+	background-color: #1ac6ff;
+	padding-right: 1em;
+	font-family: 'Playfair Display', serif;
+}
+.box2{
+	padding: 20px;
+	border: 0px solid white;
+	text-align: left;
+}
+.main{
+	display: block;
+	background-color: #1ac6ff;
+	font-family: 'Playfair Display', serif;
+}
+.aside2{
+	display: block;
+	background-color: #0099cc;
+	padding-right: 1em;
+	font-family: 'Playfair Display', serif;
+}
+.footer{
+	padding-bottom: 1px;
+	color: white;
+	background-image: linear-gradient(#0099cc, #1ac6ff);
+	padding-top: 1px;
+	text-align: center;
+}

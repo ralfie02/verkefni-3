@@ -1,0 +1,113 @@
+body{
+	margin: auto;
+	width: 950px;
+}
+h1{
+	color: #0f3e0f;
+	font-size: 30px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 48px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr; 
+}
+.box{
+	padding: 10px;
+	border: 0px solid white;
+	text-align: left;
+}
+
+.header{
+	text-align: center;
+	background-image: linear-gradient(#7aa329, #4d6619);
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+/* mouse over link */
+a:hover {
+    color: red;
+}
+/* active, unvisited link*/
+a:link{
+	color: white;
+	text-decoration: none;
+}
+p.p1{
+	color: #916a08;
+	text-align: right;
+}
+nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav1{
+	text-align: center;
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#145214, #28a428, #145214)
+}
+.nav2{
+	text-align: center;
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#145214, #28a428, #145214)
+}
+.nav3{
+	text-align: center;	
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#145214, #28a428, #145214)
+}
+.nav4{
+	text-align: center;	
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#145214, #28a428, #145214)
+}
+.nav5{
+	text-align: center;	
+	border: 1px solid none;
+	display: block;
+	padding: 1em;
+	color: white;
+	background-image: linear-gradient(#145214, #28a428, #145214)
+}
+.aside{
+	display: block;
+	background-color: #5c7a1f;
+	padding-right: 1em;
+	font-family: 'Righteous', cursive;
+}
+.box2{
+	padding: 20px;
+	border: 0px solid white;
+	text-align: left;
+}
+.main{
+	display: block;
+	background-color: #6b8e23;
+	font-family: 'Righteous', cursive;
+}
+.aside2{
+	display: block;
+	background-color: #5c7a1f;
+	padding-right: 1em;
+	font-family: 'Righteous', cursive;
+}
+.footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	background-image: linear-gradient(#28a428, #145214);
+	padding-top: 1px;
+	text-align: center;
+}
